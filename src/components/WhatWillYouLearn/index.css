@@ -1,0 +1,52 @@
+.what-will-you-learn-heading{
+    text-align: center;
+    padding: 10px;
+}
+
+.what-will-you-learn-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.what-will-you-learn-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 20px;
+}
+
+.upper-level{
+    background-color: rgb(52, 52, 129);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+}
+
+.middle-level{
+    background-color: rgb(232, 232, 255);
+    color: black;
+    text-align: center;
+    width: 105%;
+    height: 180px;
+}
+
+.lower-level{
+    background-color: rgb(52, 52, 129);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    /* height: 20px; */
+    width: 100%;
+}
+
+@media screen and (max-width:520px){
+    .what-will-you-learn-item{
+        width: 100%;
+    }
+}

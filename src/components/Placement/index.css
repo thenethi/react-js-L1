@@ -1,0 +1,25 @@
+.placement-container{
+    background-color: rgb(248, 216, 234);
+    background-size: cover;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+}
+
+.placement-heading{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.placement-head{
+    /* padding: 10px; */
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.placement-description{
+    /* padding: 10px; */
+    margin-left: 10px;
+    font-size: 16px;
+}
